@@ -1,0 +1,67 @@
+---
+title: "STA6235 Week 12"
+author: "Your Name Here"
+format: 
+  html:
+    self-contained: true
+execute:
+  echo: true
+  warning: false
+  message: false
+  error: true
+editor: source
+---
+
+For all questions below, please return to the labs for the stated weeks and copy over necessary code to (1) pull in the dataset, (2) construct the models.
+
+## Linear Regression - Week 4
+
+**1. Construct the following models:**
+
+- **M1: Model penguin body mass (*body_mass_g*) as a function of species (*species*), flipper length (*flipper_length_mm*), bill length (*bill_length_mm*), and the interaction between flipper length and bill length.**
+
+- **M2: Model penguin body mass (*body_mass_g*) as a function of species (*species*), flipper length (*flipper_length_mm*), and bill length (*bill_length_mm*).**
+
+**Perform 5-fold cross-validation to determine which model fits better. Remember to draw your conclusion and state why you drew that conclusion.**
+
+```{r}
+
+```
+
+## Gamma Regression - Week 5
+
+**2. Construct the following models:**
+
+- **M1: Model HbA1c (*HbA1c*) as a function of age (*age*), waist circumference (cm; *waist*), hypertension medication use (*BPmeds*; 1 = takes blood pressure lowering medication, 0 = does not take blood pressure lowering drugs), and the interaction between age and hypertension medication use.**
+
+- **M2: Model HbA1c (*HbA1c*) as a function of age (*age*), waist circumference (cm; *waist*), and hypertension medication use (*BPmeds*; 1 = takes blood pressure lowering medication, 0 = does not take blood pressure lowering drugs).**
+
+**Perform leave-one-out cross-validation to determine which model fits better. Remember to draw your conclusion and state why you drew that conclusion.**
+
+```{r}
+
+```
+
+## Logistic Regression - Week 7
+
+**3. Construct the following models:**
+
+- **M1: Model if the culprit was caught by either Scooby or Shaggy (the variable you created in Q2) as a function of the number of times either "zoinks!" or "jeepers!" was said on the show (the variable you created in Q3), if Scrappy Doo was in the episode (*scrappy_doo*), and the number of snacks eaten during the episode (*number_of_snacks*).**
+
+- **M2: Model if the culprit was caught by either Scooby or Shaggy (the variable you created in Q2) as a function of the number of times either "zoinks!" or "jeepers!" was said on the show (the variable you created in Q3).**
+
+**Perform 10-fold cross-validation to determine which model fits better. Remember to draw your conclusion and state why you drew that conclusion.**
+
+```{r}
+
+```
+
+## Poisson and Negative Binomial Regressions - Week 10
+
+**4. Construct the following models using the negative binomial distribution:**
+
+- **M1: Model the number of candidate votes (*candidatevotes*) as a function of year (*year*), party (*party*), region (*region*), and the interaction between party and year.**
+
+- **M2: Model the number of candidate votes (*candidatevotes*) as a function of year (*year*), party (*party*), and region (*region*).**
+
+**Perform leave-one-out cross-validation to determine which model fits better. Remember to draw your conclusion and state why you drew that conclusion.**
